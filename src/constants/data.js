@@ -1,101 +1,98 @@
 // import images from './images';
 
-const biryanis = [
+const burgers = [
   {
-    title: 'Chicken Hyderabadi Biryani',
-    price: 'Rs. 150',
+    title: 'Pan Fried Chicken Burger with Moz Cheese',
+    price: 'Rs. 219',
+    // tags: 'A minced meat chicken patty shallow fried and cooked tenderly to perfection on a flat pan. Served between a toasted sesame sprinkled bun with a dollop of our Secret Sauce, a Slice of Cheese of your choice, sliced veggies (onion-lettuce-tomato) and loads of love.',
   },
   {
-    title: 'Chicken Kolkata Biryani',
-    price: 'Rs. 150',
+    title: 'Pan Fried Chicken Burger with Cheddar Cheese',
+    price: 'Rs. 259',
   },
   {
-    title: 'Chicken Lucknowi Biryani',
-    price: 'Rs. 150',
+    title: 'Grilled Chicken Burger with Moz Cheese',
+    price: 'Rs. 229',
   },
   {
-    title: 'Chicken Kashmiri Biryani',
-    price: 'Rs. 150',
+    title: 'Grilled Chicken Burger with Cheddar Cheese',
+    price: 'Rs. 269',
   },
   {
-    title: 'Egg Bhurji Biryani',
-    price: 'Rs. 100',
+    title: 'Fried Chicken Burger with Moz Cheese',
+    price: 'Rs. 259',
   },
   {
-    title: 'Egg Biryani',
-    price: 'Rs. 90',
-    // tags: 'AU | Bottle',
-  },
-  {
-    title: 'Veg Biryani',
-    price: 'Rs. 100',
-    // tags: 'AU | Bottle',
-  },
-  {
-    title: 'Jeera Fried Rice (full)',
-    price: 'Rs. 100',
-    // tags: 'AU | Bottle',
-  },
-  {
-    title: 'Jeera Rice (full)',
-    price: 'Rs. 80',
+    title: 'Fried Chicken Burger with Cheddar Cheese',
+    price: 'Rs. 299',
     // tags: 'AU | Bottle',
   },
 ];
 
-const chickenMainCourse = [
+const sandwichburger = [
   {
-    title: 'Chicken Punjabi',
-    price: 'Rs. 150',
+    title: 'Double Cheese Grilled S/W Burger with Moz Cheese',
+    price: 'Rs. 289',
     // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
-    title: 'Chicken Do pyaza',
-    price: 'Rs. 150',
+    title: 'Double Cheese Grilled S/W Burger with Cheddar Cheese',
+    price: 'Rs. 289',
     // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
-    title: 'Kadhai Chicken',
-    price: 'Rs. 150',
+    title: 'Double Cheese Fried S/W Burger with Moz Cheese',
+    price: 'Rs. 319',
     // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
-    title: 'Chicken Mughlai',
-    price: 'Rs. 150',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: 'Chicken Masala',
-    price: 'Rs. 130',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: 'Chicken Curry',
-    price: 'Rs. 120',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: 'Butter Chicken',
-    price: 'Rs. 130',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Double Cheese Fried S/W Burger with Cheddar Cheese',
+    price: 'Rs. 339',
+    tags: 'Non-Veg | Chefs Special',
   },
 ];
 
-const eggMainCourse = [
+const specials = [
   {
-    title: 'Egg Cury',
-    price: 'Rs. 100',
+    title: 'The B.S.B with Moz Cheese',
+    price: 'Rs. 299',
+    // tags: 'The B.S.B. is our take on the classic BLT. Two strips of crisply cooked bacon atop a mildly spiced sunny side up, between a sesame sprinkled bun with a dollop of our Secret Sauce and sliced veggies (onion-lettuce-tomato), a slice of cheese of your choice garnished with love.',
+  },
+  {
+    title: 'The B.S.B with Cheddar Cheese',
+    price: 'Rs. 339',
     // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
-    title: 'Egg Masala',
-    price: 'Rs. 100',
+    title: 'The Ron Swanson with Moz Cheese',
+    price: 'Rs. 319',
     // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
-    title: 'Egg Bhurji Masala',
-    price: 'Rs. 100',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'The Ron Swanson with Cheddar Cheese',
+    price: 'Rs. 359',
+  },
+];
+
+const fries = [
+  {
+    title: 'Fries',
+    price: 'Rs. 119',
+  },
+  {
+    title: 'Masala Fries',
+    price: 'Rs. 149',
+    tags: 'Spicy',
+  },
+  {
+    title: 'Peri Peri Fries',
+    price: 'Rs 159',
+    tags: 'SPICY',
+  },
+  {
+    title: 'Chicken Popcorn',
+    price: 'Rs. 219',
+    tags: 'SPICY | Chef\'s Special',
   },
 ];
 
@@ -173,4 +170,4 @@ const rotis = [
   },
 ];
 
-export default { biryanis, chickenMainCourse, eggMainCourse, vegMainCourse, rolls, rotis };
+export default { burgers, sandwichburger, specials, fries, vegMainCourse, rolls, rotis };

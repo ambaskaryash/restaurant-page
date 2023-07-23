@@ -19,7 +19,7 @@ const Navbar = () => {
         <li className="p__opensans"><a href="#contact">Contact</a></li>
       </ul>
       <div className="app__navbar-login">
-        <a href="/" className="p__opensans" id="anchor_second">Cloud Kitchen</a>
+        <a href="#contact" className="p__opensans" id="anchor_second">Contact Us</a>
         <div />
         <a href="#order" className="p__opensans">Order Now</a>
       </div>

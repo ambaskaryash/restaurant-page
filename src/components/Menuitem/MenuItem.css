@@ -22,10 +22,10 @@
 }
 
 .app__menuitem-dash {
-    width: 90px;
-    height: 1px;
+    width: 20px;
+    height: 1.5px;
     background: var(--color-golden);
-    margin: 0 1rem;
+    margin: 0 1.5rem;
 }
 
 .app__menuitem-price {

@@ -24,13 +24,15 @@ module.exports = {
   ],
   rules: {
     'import/extensions': 0,
-    'react/prop-types': 0,
-    'linebreak-style': 0,
+ 'react/prop-types': 0,
+ 'linebreak-style': 0,
     'react/state-in-constructor': 0,
     'import/prefer-default-export': 0,
     'max-len': [
-      2,
-      550,
+      'error',
+      {
+        code: 550,
+      },
     ],
     'no-multiple-empty-lines': [
       'error',
@@ -59,25 +61,15 @@ module.exports = {
     'react/jsx-one-expression-per-line': 0,
     'jsx-a11y/click-events-have-key-events': 0,
     'jsx-a11y/alt-text': 0,
-    'jsx-a11y/no-autofocus': 0,
+    '-a11y/no-autofocus': 0,
     'jsx-a11y/no-static-element-interactions': 0,
     'react/no-array-index-key': 0,
     'jsx-a11y/anchor-is-valid': [
       'error',
       {
-        components: [
-          'Link',
-        ],
-        specialLink: [
-          'to',
-          'hrefLeft',
-          'hrefRight',
-        ],
-        aspects: [
-          'noHref',
-          'invalidHref',
-          'preferButton',
-        ],
+        components: ['Link'],
+        specialLink: ['to', 'hrefLeft', 'hrefRight'],
+        aspects: ['noHref', 'invalidHref', 'preferButton'],
       },
     ],
   },

@@ -8,7 +8,7 @@
     font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: capitalize;
-    line-height: 117px;
+    line-height: 110px;
     font-size: 90px;
 }
 
@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 450px) {
     .app__header-h1 {
-        font-size: 50px;
+        font-size: 80px;
         line-height: 70px;
     }
 }

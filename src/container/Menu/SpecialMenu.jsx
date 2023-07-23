@@ -12,34 +12,43 @@ const SpecialMenu = () => (
 
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_biryani  flex__center">
-        <p className="app__specialMenu-menu_heading">Biryani</p>
+        <p className="app__specialMenu-menu_heading">Burgers</p>
         <div className="app__specialMenu_menu_items">
-          {data.biryanis.map((biryani, index) => (
-            <MenuItem key={biryani.title + index} title={biryani.title} price={biryani.price} tags={biryani.tags} />
+          {data.burgers.map((burgers, index) => (
+            <MenuItem key={burgers.title + index} title={burgers.title} price={burgers.price} tags={burgers.tags} />
           ))}
         </div>
       </div>
 
       <div className="app__specialMenu-menu_chickenMainCourse  flex__center">
-        <p className="app__specialMenu-menu_heading">Chicken Main Course</p>
+        <p className="app__specialMenu-menu_heading">Sandwich Burger</p>
         <div className="app__specialMenu_menu_items">
-          {data.chickenMainCourse.map((chickenMain, index) => (
-            <MenuItem key={chickenMain.title + index} title={chickenMain.title} price={chickenMain.price} tags={chickenMain.tags} />
+          {data.sandwichburger.map((sandwichburgers, index) => (
+            <MenuItem key={sandwichburgers.title + index} title={sandwichburgers.title} price={sandwichburgers.price} tags={sandwichburgers.tags} />
           ))}
         </div>
       </div>
 
       <div className="app__specialMenu-menu_eggMainCourse  flex__center">
-        <p className="app__specialMenu-menu_heading">Egg Main Course</p>
+        <p className="app__specialMenu-menu_heading">Specials</p>
         <div className="app__specialMenu_menu_items">
-          {data.eggMainCourse.map((eggMain, index) => (
-            <MenuItem key={eggMain.title + index} title={eggMain.title} price={eggMain.price} tags={eggMain.tags} />
+          {data.specials.map((special, index) => (
+            <MenuItem key={special.title + index} title={special.title} price={special.price} tags={special.tags} />
+          ))}
+        </div>
+      </div>
+
+      <div className="app__specialMenu-menu_eggMainCourse  flex__center">
+        <p className="app__specialMenu-menu_heading">Fries</p>
+        <div className="app__specialMenu_menu_items">
+          {data.fries.map((fries, index) => (
+            <MenuItem key={fries.title + index} title={fries.title} price={fries.price} tags={fries.tags} />
           ))}
         </div>
       </div>
     </div>
     <div className="app__specialMenu-title">
-      <SubHeading title="**Rates shown only for half plate" />
+      <SubHeading title="**Rates shown may vary." />
     </div>
   </div>
 );
