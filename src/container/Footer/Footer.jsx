@@ -20,7 +20,7 @@ const Footer = () => (
       </div>
 
       <div className="app__footer-links_logo">
-        <img src={images.logo} alt="footer_logo" />
+        <img src={images.tkb} alt="footer_logo" />
         <p className="p__opensans">&quot;Serving the best burgers in town since 2014. No place for vegans.&quot;</p>
         {/* <p className="p__opensans"><i>fssai</i> License No. 21422170001323</p> */}
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
