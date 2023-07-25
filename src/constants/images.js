@@ -13,6 +13,7 @@ import zomato from '../assets/zomato.svg';
 import welcome from '../assets/welcome.png';
 import findus from '../assets/findus.png';
 import tkb from '../assets/tkb.png';
+import logo from '../assets/logo.png';
 
 export default {
   bg,
@@ -22,7 +23,8 @@ export default {
   gallery03,
   gallery04,
   knife,
-  // logo,
+  logo,
+  // logo1,
   overlaybg,
   spoon,
   swiggy,
