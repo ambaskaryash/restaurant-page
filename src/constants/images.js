@@ -14,11 +14,10 @@ import welcome from '../assets/welcome1.png';
 import findus from '../assets/findus.png';
 import tkb from '../assets/tkb.png';
 import logo from '../assets/logo.png';
-import butcher from '../assets/hours.png';
+// import butcher from '../assets/hours.png';
 
 export default {
   bg,
-  butcher,
   T,
   gallery01,
   gallery02,
