@@ -1,5 +1,6 @@
 .app__aboutus {
     position: relative;
+    font-size: 50px;
 }
 
 .app__aboutus-overlay {
@@ -16,6 +17,7 @@
 .app__aboutus-content {
     width: 100%;
     z-index: 2;
+    font-size: 20px;
 }
 
 .app__aboutus-content_about {

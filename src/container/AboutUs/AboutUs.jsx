@@ -13,7 +13,7 @@ const AboutUs = () => (
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">At <b>Tomar&apos;s Kitchen Biryani</b>, we strive to provide A variety Of cuisines At affordable Rates For non-vegetarian lovers And vegetarian admirers alike. We take pride in being able to provide our customers with exceptional food at such low prices, which is not often found at other Indian restaurants you may visit. We stick to our motto: &quot;Excellent Food at an Affordable Price&quot;.</p>
+        <p className="p__opensans">Have you ever had a Craving for a Delicious Juicy Burger with Fries, and you didn&apos;t want to get out of your Home due to bad weather, tiredness or simply because you didn&apos;t feel like it? Have you been sitting hungry because the good food you crave for being out of reach? You don&apos;t have to now. <b>&apos;The Secret Shop&apos;</b> is here!</p>
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
@@ -21,9 +21,9 @@ const AboutUs = () => (
       </div>
 
       <div className="app__aboutus-content_history">
-        <h1 className="headtext__cormorant">Our History</h1>
+        <h1 className="headtext__cormorant">Here&apos;s how it works:</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">During the COVID-19 pandemic, it was difficult for non-vegans to find affordable, unsullied food due to various restrictions on non-veg food. It Was One Of Our Main Motives For Starting <b>TKB</b> In 2022, Along With Providing Tasty Biryanis At Minimal Rates. We began our Cloud Kitchen with mouthwatering chicken biryanis and other non-vegetarian items, but later expanded to include vegetarian options as well. </p>
+        <p className="p__opensans"><ol type="number"><li>Call the Secret shop on 914-5646-914.</li><li>place an order from our <a href="#order">Menu.</a></li><li>Relax!</li></ol><br />We&apos;ll bring it to you, at work, at home, your kids sporting event, your gully cricket game. Wherever you may be, we will deliver to you!! </p>
         {/* <button type="button" className="custom__button">Know More</button> */}
       </div>
     </div>
