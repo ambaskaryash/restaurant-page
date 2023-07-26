@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiMapPin, FiFacebook, FiInstagram } from 'react-icons/fi';
+import { FiMapPin, FiFacebook, FiInstagram, FiTwitter } from 'react-icons/fi';
 
 import { FooterOverlay, Ordernow } from '../../components';
 import { images } from '../../constants';
@@ -33,6 +33,9 @@ const Footer = () => (
           </a>
           <a href="https://www.instagram.com/thesecretshopnagpur/" target="_blank" rel="noreferrer">
             <FiInstagram />
+          </a>
+          <a href="https://twitter.com/THESECRETSHOP4/" target="_blank" rel="noreferrer">
+            <FiTwitter />
           </a>
         </div>
       </div>
