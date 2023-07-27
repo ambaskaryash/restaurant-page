@@ -4,45 +4,45 @@ const burgers = [
   {
     title: 'Pan Fried Chicken Burger',
     price: 'Rs. 189/229/299',
-    tags: '*Mozarella, Cheddar, Combo',
+    tags: '*Mozzarella/Cheddar/Combo',
   },
   {
     title: 'The DD',
     price: 'Rs. 99/139/209',
-    tags: '*Mozarella, Cheddar, Combo',
+    tags: '*Mozzarella/Cheddar/Combo',
   },
   {
     title: 'The DD 2.0',
     price: 'Rs. 99/139/209',
-    tags: '*Mozarella, Cheddar, Combo',
+    tags: '*Mozzarella/Cheddar/Combo',
   },
   {
     title: 'Grilled Chicken Burger',
     price: 'Rs. 199/239/309',
-    tags: '*Mozarella, Cheddar, Combo',
+    tags: '*Mozzarella/Cheddar/Combo',
   },
   {
     title: 'Fried Chicken Burger',
     price: 'Rs. 219/259/329',
-    tags: '*Mozarella, Cheddar, Combo',
+    tags: '*Mozzarella/Cheddar/Combo',
   },
   {
     title: 'Buffalo NYC Style Fried Chicken',
     price: 'Rs. 259/299/369',
-    tags: '*Mozarella, Cheddar, Combo',
+    tags: '*Mozzarella/Cheddar/Combo',
   },
 ];
 
 const sandwichburger = [
   {
-    title: 'Double Cheese Grilled S/W Burger',
+    title: 'Double Cheese Sandwich Burger (Grilled)',
     price: 'Rs. 249/329/359',
-    tags: '*Mozarella, Cheddar, Combo',
+    tags: '*Mozzarella/Cheddar/Combo',
   },
   {
-    title: 'Double Cheese Fried S/W Burger',
+    title: 'Double Cheese Sandwich Burger (Fried)',
     price: 'Rs. 279/359/389',
-    tags: '*Mozarella, Cheddar, Combo',
+    tags: '*Mozzarella/Cheddar/Combo',
   },
 ];
 
@@ -50,22 +50,22 @@ const specials = [
   {
     title: 'The B.S.B',
     price: 'Rs. 259/299/369',
-    tags: '*Mozarella, Cheddar, Combo',
+    tags: '*Mozzarella/Cheddar/Combo',
   },
   {
     title: 'The Ron Swanson',
     price: 'Rs. 269/309/379',
-    tags: '*Mozarella, Cheddar, Combo',
+    tags: '*Mozzarella/Cheddar/Combo',
   },
   {
     title: 'The Pulled Pork',
     price: 'Rs. 349/ - /449',
-    tags: '*Mozarella, Cheddar, Combo',
+    tags: '*Mozzarella/Cheddar/Combo',
   },
   {
     title: 'The GOAT',
     price: 'Rs. 269/289/379',
-    tags: '*Mozarella, Cheddar, Combo',
+    tags: '*Mozzarella/Cheddar/Combo',
   },
 ];
 
@@ -99,66 +99,42 @@ const sides = [
   },
 ];
 
-const vegMainCourse = [
+const specials2 = [
   {
-    title: 'Paneer Masala',
-    price: 'Rs. 110',
+    title: 'Caveman Lollipops',
+    price: 'Rs. 199',
     // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
-    title: 'Paneer Punjabi',
-    price: 'Rs. 150',
+    title: 'Eggs Benedict',
+    price: 'Rs. 219',
     // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
-    title: 'Kadhai Paneer',
-    price: 'Rs. 150',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Fried Chicken Chat',
+    price: 'Rs. 229',
   },
   {
-    title: 'Butter Paneer masala',
-    price: 'Rs. 120',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'The Machete',
+    price: 'Rs. 279',
   },
   {
-    title: 'Kaju Paneer',
-    price: 'Rs. 130',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: 'Kaju Curry',
-    price: 'Rs. 150',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: 'Chilly Paneer',
-    price: 'Rs. 100',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Mutton Kheema Pav',
+    price: 'Rs. 299',
   },
 ];
 
-const beverages = [
+const friends = [
   {
-    title: 'COKE',
-    price: 'Rs. 59',
+    title: 'Grilled Jack',
+    price: 'Rs. 199/239/309',
+    tags: '*Mozzarell/Cheddar/Combo',
   },
   {
-    title: 'Bottled Water',
-    price: 'Rs. 25',
-  },
-];
-
-const rotis = [
-  {
-    title: 'Tawa Roti',
-    price: 'Rs. 10',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: 'Tawa Roti Butter',
-    price: 'Rs. 12',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Pulled Jack',
+    price: 'Rs. 249/ - /359',
+    tags: '*Mozzarell/Cheddar/Combo',
   },
 ];
 
-export default { burgers, sandwichburger, specials, beverages, vegMainCourse, sides, rotis };
+export default { burgers, sandwichburger, specials, sides, specials2, friends };

@@ -8,7 +8,7 @@ import { images } from '../../constants';
 const FindUs = () => (
   <div className="app__bg app__wrapper section__padding" id="contact">
     <div className="app__wrapper_info">
-      <SubHeading title="Contact" />
+      <SubHeading title="Locate Us" />
       <h1 className="headtext__cormorant" style={{ marginBottom: '3rem' }}>Locate Us</h1>
       <div className="app__wrapper-content">
         <p className="p__opensans"><b>Address:</b> Shop no. 6, Magh Appts, Square, opposite Padole Hospital, Swavalambi Nagar, Nagpur, Maharashtra 440022</p><br />
@@ -26,7 +26,7 @@ const FindUs = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <img src={images.findus} alt="finus_img" />
+      <img src={images.welcome} alt="finus_img" />
     </div>
   </div>
 );

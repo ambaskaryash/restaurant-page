@@ -22,19 +22,19 @@ const SpecialMenu11 = () => (
       </div>
 
       <div className="app__SpecialMenu1-menu_rolls  flex__center">
-        <p className="app__SpecialMenu1-menu_heading">Beverages</p>
+        <p className="app__SpecialMenu1-menu_heading">Specials 2</p>
         <div className="app__SpecialMenu1_menu_items">
-          {data.beverages.map((beverage, index) => (
-            <MenuItem key={beverage.title + index} title={beverage.title} price={beverage.price} tags={beverage.tags} />
+          {data.specials2.map((special2, index) => (
+            <MenuItem key={special2.title + index} title={special2.title} price={special2.price} tags={special2.tags} />
           ))}
         </div>
       </div>
 
-      <div className="app__SpecialMenu1-menu_rotis  flex__center">
-        <p className="app__SpecialMenu1-menu_heading">Roti</p>
+      <div className="app__SpecialMenu1-menu_rotis flex__center">
+        <p className="app__SpecialMenu1-menu_heading">For the Friend In Need</p>
         <div className="app__SpecialMenu1_menu_items">
-          {data.rotis.map((roti, index) => (
-            <MenuItem key={roti.title + index} title={roti.title} price={roti.price} tags={roti.tags} />
+          {data.friends.map((friend, index) => (
+            <MenuItem key={friend.title + index} title={friend.title} price={friend.price} tags={friend.tags} />
           ))}
         </div>
       </div>
