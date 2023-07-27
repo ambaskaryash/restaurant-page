@@ -40,7 +40,7 @@ const SpecialMenu11 = () => (
       </div>
     </div>
     <div className="app__SpecialMenu1-title">
-      <SubHeading title="**Rates shown only for half plate" />
+      <SubHeading title="**Rates shown may vary." />
     </div>
 
   </div>
