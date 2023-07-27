@@ -1,9 +1,8 @@
 import bg from '../assets/bg.png';
 import T from '../assets/S.png';
-import gallery01 from '../assets/gallery01.png';
-import gallery02 from '../assets/gallery02.png';
-import gallery03 from '../assets/gallery03.png';
-import gallery04 from '../assets/gallery04.png';
+import gallery05 from '../assets/gallery05.png';
+import ronswanson from '../assets/ronswanson1.png';
+import panfried from '../assets/panfried.png';
 import knife from '../assets/knifes.png';
 // import logo from '../assets/logo.png';
 import overlaybg from '../assets/overlaybg.png';
@@ -19,10 +18,9 @@ import logo from '../assets/logo.png';
 export default {
   bg,
   T,
-  gallery01,
-  gallery02,
-  gallery03,
-  gallery04,
+  gallery05,
+  ronswanson,
+  panfried,
   knife,
   logo,
   // logo1,

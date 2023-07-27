@@ -9,7 +9,7 @@ const FindUs = () => (
   <div className="app__bg app__wrapper section__padding" id="contact">
     <div className="app__wrapper_info">
       <SubHeading title="Contact" />
-      <h1 className="headtext__cormorant" style={{ marginBottom: '3rem' }}>Find Us</h1>
+      <h1 className="headtext__cormorant" style={{ marginBottom: '3rem' }}>Locate Us</h1>
       <div className="app__wrapper-content">
         <p className="p__opensans"><b>Address:</b> Shop no. 6, Magh Appts, Square, opposite Padole Hospital, Swavalambi Nagar, Nagpur, Maharashtra 440022</p><br />
         <p className="p__opensans"><b>Contact Number</b> : +91 91456 46914</p>
@@ -19,7 +19,7 @@ const FindUs = () => (
       </div>
       <div className="app__footer-links_icons">
         <a href="https://goo.gl/maps/MYRTepTvscQYBRLJ8" target="_blank" rel="noreferrer">
-          <button type="button" className="custom__button" style={{ marginTop: '2rem' }}>Visit Us </button>
+          <button type="button" className="custom__button" style={{ marginTop: '2rem' }}>Locate Us </button>
           <FiMapPin />
         </a>
       </div>

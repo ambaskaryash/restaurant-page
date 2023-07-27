@@ -2,97 +2,100 @@
 
 const burgers = [
   {
-    title: 'Pan Fried Chicken Burger with Moz Cheese',
-    price: 'Rs. 219',
-    // tags: 'A minced meat chicken patty shallow fried and cooked tenderly to perfection on a flat pan. Served between a toasted sesame sprinkled bun with a dollop of our Secret Sauce, a Slice of Cheese of your choice, sliced veggies (onion-lettuce-tomato) and loads of love.',
+    title: 'Pan Fried Chicken Burger',
+    price: 'Rs. 189/229/299',
+    tags: '*Mozarella, Cheddar, Combo',
   },
   {
-    title: 'Pan Fried Chicken Burger with Cheddar Cheese',
-    price: 'Rs. 259',
+    title: 'The DD',
+    price: 'Rs. 99/139/209',
+    tags: '*Mozarella, Cheddar, Combo',
   },
   {
-    title: 'Grilled Chicken Burger with Moz Cheese',
-    price: 'Rs. 229',
+    title: 'The DD 2.0',
+    price: 'Rs. 99/139/209',
+    tags: '*Mozarella, Cheddar, Combo',
   },
   {
-    title: 'Grilled Chicken Burger with Cheddar Cheese',
-    price: 'Rs. 269',
+    title: 'Grilled Chicken Burger',
+    price: 'Rs. 199/239/309',
+    tags: '*Mozarella, Cheddar, Combo',
   },
   {
-    title: 'Fried Chicken Burger with Moz Cheese',
-    price: 'Rs. 259',
+    title: 'Fried Chicken Burger',
+    price: 'Rs. 219/259/329',
+    tags: '*Mozarella, Cheddar, Combo',
   },
   {
-    title: 'Fried Chicken Burger with Cheddar Cheese',
-    price: 'Rs. 299',
-    // tags: 'AU | Bottle',
+    title: 'Buffalo NYC Style Fried Chicken',
+    price: 'Rs. 259/299/369',
+    tags: '*Mozarella, Cheddar, Combo',
   },
 ];
 
 const sandwichburger = [
   {
-    title: 'Double Cheese Grilled S/W Burger with Moz Cheese',
-    price: 'Rs. 289',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Double Cheese Grilled S/W Burger',
+    price: 'Rs. 249/329/359',
+    tags: '*Mozarella, Cheddar, Combo',
   },
   {
-    title: 'Double Cheese Grilled S/W Burger with Cheddar Cheese',
-    price: 'Rs. 289',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: 'Double Cheese Fried S/W Burger with Moz Cheese',
-    price: 'Rs. 319',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: 'Double Cheese Fried S/W Burger with Cheddar Cheese',
-    price: 'Rs. 339',
-    tags: 'Non-Veg | Chefs Special',
+    title: 'Double Cheese Fried S/W Burger',
+    price: 'Rs. 279/359/389',
+    tags: '*Mozarella, Cheddar, Combo',
   },
 ];
 
 const specials = [
   {
-    title: 'The B.S.B with Moz Cheese',
-    price: 'Rs. 299',
-    // tags: 'The B.S.B. is our take on the classic BLT. Two strips of crisply cooked bacon atop a mildly spiced sunny side up, between a sesame sprinkled bun with a dollop of our Secret Sauce and sliced veggies (onion-lettuce-tomato), a slice of cheese of your choice garnished with love.',
+    title: 'The B.S.B',
+    price: 'Rs. 259/299/369',
+    tags: '*Mozarella, Cheddar, Combo',
   },
   {
-    title: 'The B.S.B with Cheddar Cheese',
-    price: 'Rs. 339',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'The Ron Swanson',
+    price: 'Rs. 269/309/379',
+    tags: '*Mozarella, Cheddar, Combo',
   },
   {
-    title: 'The Ron Swanson with Moz Cheese',
-    price: 'Rs. 319',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'The Pulled Pork',
+    price: 'Rs. 349/ - /449',
+    tags: '*Mozarella, Cheddar, Combo',
   },
   {
-    title: 'The Ron Swanson with Cheddar Cheese',
-    price: 'Rs. 359',
+    title: 'The GOAT',
+    price: 'Rs. 269/289/379',
+    tags: '*Mozarella, Cheddar, Combo',
   },
 ];
 
-const fries = [
+const sides = [
   {
     title: 'Fries',
-    price: 'Rs. 119',
+    price: 'Rs. 99',
   },
   {
     title: 'Masala Fries',
-    price: 'Rs. 149',
+    price: 'Rs. 129',
     tags: 'Spicy',
   },
   {
-    title: 'Peri Peri Fries',
-    price: 'Rs 159',
+    title: 'Piri Piri Fries',
+    price: 'Rs 139',
     tags: 'SPICY',
   },
   {
     title: 'Chicken Popcorn',
-    price: 'Rs. 219',
+    price: 'Rs. 189',
     tags: 'SPICY | Chef\'s Special',
+  },
+  {
+    title: 'Cajun Fries',
+    price: 'Rs. 149',
+  },
+  {
+    title: 'Buffalo NYC Style Fries',
+    price: 'Rs. 159',
   },
 ];
 
@@ -134,26 +137,14 @@ const vegMainCourse = [
   },
 ];
 
-const rolls = [
+const beverages = [
   {
-    title: 'chicken Kathi Rolls',
-    price: 'Rs. 70',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'COKE',
+    price: 'Rs. 59',
   },
   {
-    title: 'Egg Roll',
-    price: 'Rs. 70',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: 'Kathi Roll',
-    price: 'Rs. 70',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: 'Garlic Chicken roll',
-    price: 'Rs. 70',
-    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Bottled Water',
+    price: 'Rs. 25',
   },
 ];
 
@@ -170,4 +161,4 @@ const rotis = [
   },
 ];
 
-export default { burgers, sandwichburger, specials, fries, vegMainCourse, rolls, rotis };
+export default { burgers, sandwichburger, specials, beverages, vegMainCourse, sides, rotis };

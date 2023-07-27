@@ -30,19 +30,10 @@ const SpecialMenu = () => (
       </div>
 
       <div className="app__specialMenu-menu_eggMainCourse  flex__center">
-        <p className="app__specialMenu-menu_heading">Specials</p>
+        <p className="app__specialMenu-menu_heading">Sides</p>
         <div className="app__specialMenu_menu_items">
-          {data.specials.map((special, index) => (
-            <MenuItem key={special.title + index} title={special.title} price={special.price} tags={special.tags} />
-          ))}
-        </div>
-      </div>
-
-      <div className="app__specialMenu-menu_eggMainCourse  flex__center">
-        <p className="app__specialMenu-menu_heading">Fries</p>
-        <div className="app__specialMenu_menu_items">
-          {data.fries.map((fries, index) => (
-            <MenuItem key={fries.title + index} title={fries.title} price={fries.price} tags={fries.tags} />
+          {data.sides.map((sides, index) => (
+            <MenuItem key={sides.title + index} title={sides.title} price={sides.price} tags={sides.tags} />
           ))}
         </div>
       </div>
